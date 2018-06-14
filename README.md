@@ -3,13 +3,29 @@ Globally usable HTTP status codes.
 
 All codes are globally define in `HttpStatus` and bifurcated by it's use in `HttpStatusFor`
 
-#### Categories in `HttpStatusFor` are :
+### Categories in `HttpStatusFor` are :
     * `INFORMATIONAL` starts with 1**
     * `SUCCESS` Starts with 2**
     * `REDIRECTION` Starts with 3**
     * `CLIENT_ERROR` Starts with 4**
     * `SERVER_ERROR` Starts with 5**
 
+### Usage (Ex. express 4.x)
+
+```javascript
+//Require once and use anywhere in app
+require('http-status-js');
+
+response
+	.status(HttpStatus.OK.code) //returns 200 code
+	.send(HttpStatus.OK.text);
+
+response
+	.status(HttpStatusFor.SERVER_ERROR.INTERNAL_SERVER_ERROR.code)
+	.send({
+		error: HttpStatusFor.SERVER_ERROR.INTERNAL_SERVER_ERROR.text)
+	});
+```
 
 ## Codes
 
