@@ -1,0 +1,30 @@
+{
+  "name": "http-status-js",
+  "version": "1.0.0",
+  "description": "Globally usable HTTP status codes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meetkishan/http-status-js.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "httpstatus",
+    "global",
+    "globally",
+    "httpClient",
+    "codes",
+    "status",
+    "js"
+  ],
+  "author": "Kishan Kachchhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meetkishan/http-status-js/issues"
+  },
+  "homepage": "https://github.com/meetkishan/http-status-js#readme"
+}
