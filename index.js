@@ -169,27 +169,27 @@ global.HttpStatus = {
         "code": 412,
         "text": "Precondition Failed"
     },
-    Payload_Too_Large: {
+    PAYLOAD_TOO_LARGE: {
         "use": "Client_Error",
         "code": 413,
         "text": "Payload Too Large"
     },
-    Request_URI_Too_Long: {
+    REQUEST_URI_TOO_LONG: {
         "use": "Client_Error",
         "code": 414,
         "text": "Request URI Too Long"
     },
-    Unsupported_Media_Type: {
+    UNSUPPORTED_MEDIA_TYPE: {
         "use": "Client_Error",
         "code": 415,
         "text": "Unsupported Media Type"
     },
-    Requested_Range_Not_Satisfiable: {
+    REQUESTED_RANGE_NOT_SATISFIABLE: {
         "use": "Client_Error",
         "code": 416,
         "text": "Requested Range Not Satisfiable"
     },
-    Expectation_Failed: {
+    EXPECTATION_FAILED: {
         "use": "Client_Error",
         "code": 417,
         "text": "Expectation Failed"
@@ -199,7 +199,7 @@ global.HttpStatus = {
         "code": 418,
         "text": "I'm a teapot"
     },
-    Misdirected_Request: {
+    MISDIRECTED_REQUEST: {
         "use": "Client_Error",
         "code": 421,
         "text": "Misdirected Request"
@@ -460,23 +460,23 @@ global.HttpStatusFor = {
             "code": 412,
             "text": "Precondition Failed"
         },
-        Payload_Too_Large: {
+        PAYLOAD_TOO_LARGE: {
             "code": 413,
             "text": "Payload Too Large"
         },
-        Request_URI_Too_Long: {
+        REQUEST_URI_TOO_LONG: {
             "code": 414,
             "text": "Request URI Too Long"
         },
-        Unsupported_Media_Type: {
+        UNSUPPORTED_MEDIA_TYPE: {
             "code": 415,
             "text": "Unsupported Media Type"
         },
-        Requested_Range_Not_Satisfiable: {
+        REQUESTED_RANGE_NOT_SATISFIABLE: {
             "code": 416,
             "text": "Requested Range Not Satisfiable"
         },
-        Expectation_Failed: {
+        EXPECTATION_FAILED: {
             "code": 417,
             "text": "Expectation Failed"
         },
@@ -484,7 +484,7 @@ global.HttpStatusFor = {
             "code": 418,
             "text": "I'm a teapot"
         },
-        Misdirected_Request: {
+        MISDIRECTED_REQUEST: {
             "code": 421,
             "text": "Misdirected Request"
         },
